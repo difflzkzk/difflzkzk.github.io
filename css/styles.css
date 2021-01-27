@@ -6588,6 +6588,7 @@ button.bg-dark:focus {
 
 .flex-grow-1 {
   flex-grow: 1 !important;
+  margin-right: 14px;
 }
 
 .flex-shrink-0 {
