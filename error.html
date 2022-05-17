@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<head>
+    <title>에러페이지입니다 !</title>
+</head>
+<script type="text/javaScript">
+    //타이머 걸기
+    setTimeout(function self(){
+        st = setTimeout(window.close());
+        clearTimeout(st);
+    },10000);
+    
+    
+</script>
+<div class="page-404">
+    <div class="outer">
+        <div class="middle">
+            <div class="inner">
+                <!--BEGIN CONTENT-->
+                <div class="inner-circle"><i class="fa fa-home"></i><span>404</span></div>
+                <span class="inner-status">Oops! You're lost</span>
+                <span class="inner-detail">
+                    We can not find the page you're looking for.
+                </span>
+            </div>
+            <div>
+                <button id="closeBtn" onclick="self()">
+                클릭시 현재 창은 10 초 후에 닫깁니다.
+                </button>
+                
+            </div> 
+        </div>
+    </div>
+</div>
+</html>
