@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<head>
+    <title>에러페이지입니다 !</title>
+</head>
+<script type="text/javaScript">
+    //타이머 걸기
+    setTimeout(function self(){
+        st = setTimeout(window.close());
+        clearTimeout(st);
+    },10000);
+    
+    
+</script>
+<div class="page-404">
+    <div class="outer">
+        <div class="middle">
+            <div class="inner">
+                <!--BEGIN CONTENT-->
+                <span class="inner-status">프로그래머스</span>
+                <span class="inner-detail">
+                    링크로 할지 팝업으로 할지 고민중
+                </span>
+            </div>
+            <div>
+                <button id="closeBtn" onclick="self()">
+                클릭시 현재 창은 10 초 후에 닫깁니다.
+                </button>
+                
+            </div> 
+        </div>
+    </div>
+</div>
+</html>
